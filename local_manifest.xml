@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+    <remove-project name="CyanogenMod/android_hardware_ril" path="hardware/ril"/>
+    <project path="hardware/ril"
+        name="maxwen/android_hardware_ril"/>
+
+    <remove-project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera"/>
+    <project path="packages/apps/Camera"
+        name="maxwen/android_packages_apps_Camera"/>
+
+    <remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base"/>
+    <project path="frameworks/base"
+        name="maxwen/android_frameworks_base"/>
+
+    <remove-project name="CyanogenMod/android_prebuilt" path="prebuilt"/>
+    <project path="prebuilt"
+        name="AOKP/prebuilt"/>
+
+    <remove-project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"/>
+    <project path="hardware/qcom/media"
+        name="maxwen/android_hardware_qcom_media"/>
+
+    <project name="Lloir/android_device_primou" 
+        path="device/htc/primou" 
+        revision="ics" />
+
+    <project name="Lloir/Primou_msm7x30-common" 
+        path="device/htc/msm7x30-common" 
+        revision="ics" />
+
+    <project name="Lloir/android_vendor_htc_primou" 
+        path="vendor/htc/primou" 
+        revision="ics" />
+
+   
+
+  </manifest>
