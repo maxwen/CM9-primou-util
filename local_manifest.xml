@@ -2,26 +2,27 @@
   <manifest>
 
     <remote name="Lloir"
-        fetch="https://github.com/Lloir/"
-        revision="refs/heads/ics"/>
+        fetch="https://github.com/Lloir/"/>
 
     <remote name="maxwen"
-        fetch="https://github.com/maxwen/"
-        revision="refs/heads/ics-release"/>
+        fetch="https://github.com/maxwen/"/>
 
     <remove-project name="CyanogenMod/android_hardware_ril" path="hardware/ril"/>
     <project path="hardware/ril"
        remote="maxwen"
+       revision="ics-release"
        name="android_hardware_ril"/>
 
     <remove-project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera"/>
     <project path="packages/apps/Camera"
        remote="maxwen"
+       revision="ics-release"
        name="android_packages_apps_Camera"/>
 
     <remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base"/>
     <project path="frameworks/base"
        remote="maxwen"
+       revision="ics-release"
        name="android_frameworks_base"/>
 
     <remove-project name="CyanogenMod/android_prebuilt" path="prebuilt"/>
@@ -32,18 +33,26 @@
     <remove-project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"/>
     <project path="hardware/qcom/media"
         remote="maxwen"
+        revision="ics-release"
         name="android_hardware_qcom_media"/>
+
+    <project path="packages/apps/FileExplorer" 
+        name="AOKP-SGS2/android_packages_apps_FileExplorer" 
+        revision="ics" />
 
     <project name="android_device_primou" 
         path="device/htc/primou" 
+        revision="ics"
         remote="Lloir" />
 
     <project name="Primou_msm7x30-common" 
         path="device/htc/msm7x30-common" 
+        revision="ics"        
         remote="Lloir"/>
 
     <project name="android_vendor_htc_primou" 
         path="vendor/htc/primou" 
+        revision="ics"
         remote="Lloir" />
 
   </manifest>
