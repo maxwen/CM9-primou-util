@@ -36,6 +36,12 @@
         revision="ics-release"
         name="android_hardware_qcom_media"/>
 
+    <remove-project name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts"/>
+    <project path="packages/apps/Contacts" 
+        remote="maxwen"
+        revision="ics-release"
+        name="android_packages_apps_Contacts" />
+
     <project path="packages/apps/FileExplorer" 
         name="AOKP-SGS2/android_packages_apps_FileExplorer" 
         revision="ics" />
@@ -54,5 +60,10 @@
         path="vendor/htc/primou" 
         revision="ics"
         remote="Lloir" />
+
+    <project name="primou-kernel-HTC" 
+        path="kernel/htc/primou" 
+        revision="master"
+        remote="maxwen" />
 
   </manifest>
