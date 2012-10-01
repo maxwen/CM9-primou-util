@@ -42,6 +42,12 @@
         revision="ics-release"
         name="android_packages_apps_Contacts" />
 
+    <remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings"/>
+    <project path="packages/apps/Settings" 
+        remote="maxwen"
+        revision="ics-release"
+        name="android_packages_apps_Settings" />
+
     <project path="packages/apps/FileExplorer" 
         name="AOKP-SGS2/android_packages_apps_FileExplorer" 
         revision="ics" />
