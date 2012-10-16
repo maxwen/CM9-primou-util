@@ -57,12 +57,6 @@
         name="AOKP-SGS2/android_packages_apps_FileExplorer" 
         revision="ics" />
   
-    <remove-project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
-    <project path="external/bluetooth/bluez" 
-        remote="maxwen"
-        revision="ics-release"
-        name="android_external_bluetooth_bluez" />
-
     <project name="android_device_primou" 
         path="device/htc/primou" 
         revision="ics"
